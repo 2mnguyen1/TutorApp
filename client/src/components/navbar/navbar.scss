@@ -20,13 +20,13 @@ $text-color: #081420;
             align-items: center;
             gap: 10px;
             .navbar-image {
-                width: 50px;
-                height: 50px;
+                width: 40px;
+                height: 40px;
             }
             .navbar-icon-text {
                 font-style: normal;
                 font-weight: 800;
-                font-size: 24px;
+                font-size: 16px;
                 line-height: 36px;
                 letter-spacing: 0.1em;
                 color: $text-color;
@@ -44,7 +44,7 @@ $text-color: #081420;
                 .navbar-item {
                     font-style: normal;
                     font-weight: 600;
-                    font-size: 16px;
+                    font-size: 12px;
                     line-height: 24px;
                     letter-spacing: 0.1em;
                     color: #414880;
@@ -55,15 +55,15 @@ $text-color: #081420;
             display: flex;
             gap: 10px;
             .navbar-button {
-                width: 100px;
-                height: 40px;
+                width: 90px;
+                height: 30px;
                 background: $primary1;
-                border-radius: 10px;
+                // border-radius: 10px;
                 border: none;
                 color: white;
                 font-style: normal;
                 font-weight: 400;
-                font-size: 16px;
+                font-size: 12px;
                 line-height: 24px;
                 letter-spacing: 0.1em;
             }
