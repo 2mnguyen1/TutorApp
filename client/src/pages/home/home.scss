@@ -1,0 +1,24 @@
+.home-container {
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    position: relative;
+    .background-bubble1 {
+        background: url(../../images/Bubble1.png);
+    }
+    .background-bubble2 {
+        background: url(../../images/Bubble2.png);
+    }
+    .background-bubble1, .background-bubble2 {
+        
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+    }
+    .home-top {
+        z-index: 10;
+    }
+}

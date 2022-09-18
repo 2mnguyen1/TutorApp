@@ -5,8 +5,13 @@ import React from "react";
 
 const Home = () => {
     return (
-        <div>
-            <Navbar />
+        <div className="home-container">
+            <div className="background-bubble1"></div>
+            <div className="background-bubble2"></div>
+
+            <div className="home-top">
+                <Navbar />
+            </div>
         </div>
     );
 };
