@@ -35,7 +35,7 @@ const Home = () => {
                     <img className="product" alt="" src={humanImg} />
                 </div>
             </div>
-
+            {/* ---------------------------- */}
             <div className="subject-containers">
                 <div className="subject-container-title">
                     <h3 className="subject-service">Our Services</h3>
@@ -150,6 +150,41 @@ const Home = () => {
                             </button>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            {/* ------------------------------ */}
+
+            <div className="category-container">
+                Featured topics by category
+                <div className="category-wrapper">
+                    <div className="category">
+                        High Schools
+                        <div>
+                            <a>AP Calculus AB</a>
+                        </div>
+                        <div>
+                            <a>AP Physic 1: Algebra-Based</a>
+                        </div>
+                        <div>
+                            <a>AP English Language</a>
+                        </div>
+                    </div>
+                    <div className="category">
+                        Colleges
+                        <div>
+                            <a>Calculus 1</a>
+                        </div>
+                        <div>
+                            <a>Calculus-Based Physic: Mechanics</a>
+                        </div>
+                        <div>
+                            <a>Freshman Composition</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="explore-btn">
+                    <button>Explore <ArrowForward /></button>
                 </div>
             </div>
         </div>
