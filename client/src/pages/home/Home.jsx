@@ -1,6 +1,6 @@
 import "./home.scss";
 import Navbar from "../../components/navbar/Navbar";
-import { ArrowForward } from "@mui/icons-material";
+import { ArrowForward, Calculate } from "@mui/icons-material";
 import React from "react";
 import vectorImg1 from "../../images/Vector1.png";
 import vectorImg2 from "../../images/Vector2.png";
@@ -33,6 +33,123 @@ const Home = () => {
                     <img className="vector1" alt="" src={vectorImg1} />
                     <img className="vector2" alt="" src={vectorImg2} />
                     <img className="product" alt="" src={humanImg} />
+                </div>
+            </div>
+
+            <div className="subject-containers">
+                <div className="subject-container-title">
+                    <h3 className="subject-service">Our Services</h3>
+                    <h1 className="choose-subject">Choose a subject!</h1>
+                </div>
+                <div className="subject-lists">
+                    <div className="subject-list">
+                        <div className="subject-list-icon">
+                            <Calculate sx={{ fontSize: 32 }} />
+                        </div>
+                        <div className="subject-list-title">Math</div>
+                        <div className="subject-list-desc">
+                            We help develop company mobile apps to be more
+                            professional and attractive
+                        </div>
+                        <div className="subject-list-btn">
+                            <button>
+                                <ArrowForward
+                                    className="arrow-icon"
+                                    fontSize="small"
+                                />
+                            </button>
+                        </div>
+                    </div>
+                    <div className="subject-list">
+                        <div className="subject-list-icon">
+                            <Calculate sx={{ fontSize: 32 }} />
+                        </div>
+                        <div className="subject-list-title">Math</div>
+                        <div className="subject-list-desc">
+                            We help develop company mobile apps to be more
+                            professional and attractive
+                        </div>
+                        <div className="subject-list-btn">
+                            <button>
+                                <ArrowForward
+                                    className="arrow-icon"
+                                    fontSize="small"
+                                />
+                            </button>
+                        </div>
+                    </div>
+                    <div className="subject-list">
+                        <div className="subject-list-icon">
+                            <Calculate sx={{ fontSize: 32 }} />
+                        </div>
+                        <div className="subject-list-title">Math</div>
+                        <div className="subject-list-desc">
+                            We help develop company mobile apps to be more
+                            professional and attractive
+                        </div>
+                        <div className="subject-list-btn">
+                            <button>
+                                <ArrowForward
+                                    className="arrow-icon"
+                                    fontSize="small"
+                                />
+                            </button>
+                        </div>
+                    </div>
+                    <div className="subject-list">
+                        <div className="subject-list-icon">
+                            <Calculate sx={{ fontSize: 32 }} />
+                        </div>
+                        <div className="subject-list-title">Math</div>
+                        <div className="subject-list-desc">
+                            We help develop company mobile apps to be more
+                            professional and attractive
+                        </div>
+                        <div className="subject-list-btn">
+                            <button>
+                                <ArrowForward
+                                    className="arrow-icon"
+                                    fontSize="small"
+                                />
+                            </button>
+                        </div>
+                    </div>
+                    <div className="subject-list">
+                        <div className="subject-list-icon">
+                            <Calculate sx={{ fontSize: 32 }} />
+                        </div>
+                        <div className="subject-list-title">Math</div>
+                        <div className="subject-list-desc">
+                            We help develop company mobile apps to be more
+                            professional and attractive
+                        </div>
+                        <div className="subject-list-btn">
+                            <button>
+                                <ArrowForward
+                                    className="arrow-icon"
+                                    fontSize="small"
+                                />
+                            </button>
+                        </div>
+                    </div>
+                    <div className="subject-list">
+                        <div className="subject-list-icon">
+                            <Calculate sx={{ fontSize: 32 }} />
+                        </div>
+                        <div className="subject-list-title">Math</div>
+                        <div className="subject-list-desc">
+                            We help develop company mobile apps to be more
+                            professional and attractive
+                        </div>
+                        <div className="subject-list-btn">
+                            <button>
+                                <ArrowForward
+                                    className="arrow-icon"
+                                    fontSize="small"
+                                />
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
