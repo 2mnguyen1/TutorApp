@@ -1,0 +1,99 @@
+.subject-container {
+    margin-top: 30px;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    .subject-categories-wrapper {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        .subject-categories-title {
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 32px;
+            color: #ff2d59;
+            text-align: center;
+            span {
+                font-size: 20px;
+            }
+        }
+        .subject-categories {
+            margin-top: 30px;
+            .subject-category {
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 56px;
+                color: #4d41ff;
+                border-bottom: 2px solid #ffcc00;
+                width: 338px;
+                padding: 20px;
+            }
+        }
+    }
+    .subject-tutors-wrapper {
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .subject-tutors-title {
+            color: #ff2d59;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 32px;
+        }
+        .subject-tutors-container {
+            margin-top: 95px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 4rem;
+            .subject-tutor {
+                width: 300px;
+                padding: 20px;
+                .subject-tutor-image {
+                    width: 300px;
+                    height: 250px;
+                    background: #d9d9d9;
+                    margin-bottom: 10px;
+                }
+                .subject-tutor-description {
+                    color: black;
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                }
+                .subject-tutor-name {
+                    color: #9c9c9c;
+                    font-size: 14px;
+                    margin-bottom: 5px;
+                }
+                .subject-tutor-rating {
+                    color: #fabf35;
+                    font-size: 14px;
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                    span {
+                        color: #9c9c9c;
+                    }
+                }
+                .subject-tutor-pay {
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                }
+                .subject-tutor-book {
+                    margin-top: 10px;
+                    button {
+                        filter: drop-shadow(
+                            5px 10px 30px rgba(76, 64, 247, 0.5)
+                        );
+                        border-radius: 0px;
+                        width: 159px;
+                        height: 40px;
+                        background: #4c40f7;
+                        border: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
