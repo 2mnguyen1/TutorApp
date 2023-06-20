@@ -12,7 +12,9 @@ const App = () => {
             <Navbar />
             {/* <Subject /> */}
             {/* <Tutor /> */}
-            <CreateTutor />
+            <div className="create-tutor">
+                <CreateTutor />
+            </div>
         </>
     );
 };
