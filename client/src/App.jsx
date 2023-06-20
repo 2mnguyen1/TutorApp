@@ -3,6 +3,7 @@ import Home from "./pages/home/Home";
 import Subject from "./components/subject/Subject";
 import Navbar from "./components/navbar/Navbar";
 import Tutor from "./components/tutor/Tutor";
+import CreateTutor from "./components/createTutor/CreateTutor";
 
 const App = () => {
     return (
@@ -10,7 +11,8 @@ const App = () => {
             {/* <Home /> */}
             <Navbar />
             {/* <Subject /> */}
-            <Tutor />
+            {/* <Tutor /> */}
+            <CreateTutor />
         </>
     );
 };
