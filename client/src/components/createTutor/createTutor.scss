@@ -6,9 +6,79 @@
         font-size: 56px;
         line-height: 72px;
         display: flex;
-        text-align: center;
+        justify-content: center;
         span {
             color: #ff6800;
+            margin-left: 15px;
+        }
+    }
+    .create-tutor-intro {
+        text-align: center;
+        color: #030303;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 31.5px;
+        span {
+            color: #ff2d59;
+            font-size: 16px;
+        }
+    }
+    .create-tutor-form {
+        width: 887px;
+        height: fit-content;
+        border: 3px dashed #7b61ff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+        gap: 20px;
+        .create-tutor-form-subject {
+            color: #000000;
+            font-size: 16px;
+        }
+        .create-tutor-form-education {
+            display: flex;
+            gap: 10px;
+            .create-tutor-form-radio {
+                display: flex;
+                gap: 10px;
+                div {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    color: #787885;
+                    font-size: 13px;
+                }
+            }
+        }
+        .create-tutor-textarea {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            textarea {
+                height: 70px;
+                padding: 5px;
+                border-radius: 4px;
+                border: 1px solid #b7b7b7;
+                background: var(--base-pure-white, #fff);
+            }
+        }
+        .create-tutor-form-desc {
+            textarea {
+                height: 100px;
+            }
+        }
+        .create-tutor-form-btn {
+            border: none;
+            height: 50px;
+            color: white;
+            border-radius: 12px;
+            background: var(--blue-gray-800, #1e293b);
+            box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.15) inset;
+            color: var(--blue-gray-50, #f8fafc);
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 24px;
         }
     }
 }

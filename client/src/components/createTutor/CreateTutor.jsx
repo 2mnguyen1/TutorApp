@@ -1,16 +1,17 @@
 import React from "react";
-import "./createTutor.scss"
+import "./createTutor.scss";
 
 export default function CreateTutor() {
     return (
         <>
             <div className="create-tutor-container">
                 <div className="create-tutor-wrapper">
-                    <h1 className="create-tutor-title">
+                    <div className="create-tutor-title">
                         Welcome to our <span>family</span>
-                    </h1>
+                    </div>
                     <h3 className="create-tutor-intro">
                         Want to become a tutor?
+                        <br />
                         <span>(Fillout the form below)</span>
                     </h3>
                     <div className="create-tutor-form">
@@ -37,7 +38,7 @@ export default function CreateTutor() {
                                     <input
                                         type="radio"
                                         id="highSchool"
-                                        name="highSchool"
+                                        name="education"
                                         value="highSchool"
                                     />
                                     <label for="highSchool">High School</label>
@@ -47,7 +48,7 @@ export default function CreateTutor() {
                                     <input
                                         type="radio"
                                         id="college"
-                                        name="college"
+                                        name="education"
                                         value="college"
                                     />
                                     <label for="college">College</label>
@@ -57,31 +58,33 @@ export default function CreateTutor() {
                                     <input
                                         type="radio"
                                         id="graduate"
-                                        name="graduate"
+                                        name="education"
                                         value="graduate"
                                     />
                                     <label for="graduate">Graduate</label>
                                 </div>
                             </div>
                         </div>
-                        <div className="create-tutor-form-experience">
+                        <div className="create-tutor-form-experience create-tutor-textarea">
                             <label for="experience">
                                 Experience(Discribe any experiences you have
                                 regard tutoring):
                             </label>
-                            <input
-                                type="text"
+                            <textarea
                                 id="experience"
                                 name="experience"
                                 required
                             />
                         </div>
-                        <div className="create-tutor-form-desc">
+                        <div className="create-tutor-form-desc create-tutor-textarea">
                             <label for="desc">
                                 Description(Tell us about yourself):
                             </label>
-                            <input type="text" id="desc" name="desc" required />
+                            <textarea id="desc" name="desc" required />
                         </div>
+                        <button className="create-tutor-form-btn">
+                            Register
+                        </button>
                     </div>
                 </div>
             </div>
