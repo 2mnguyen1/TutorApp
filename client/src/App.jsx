@@ -4,6 +4,9 @@ import Subject from "./components/subject/Subject";
 import Navbar from "./components/navbar/Navbar";
 import Tutor from "./components/tutor/Tutor";
 import CreateTutor from "./components/createTutor/CreateTutor";
+import BookingForm from "./components/bookingForm/BookingForm";
+import { LocalizationProvider } from "@mui/x-date-pickers";
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 
 const App = () => {
     return (
@@ -12,9 +15,12 @@ const App = () => {
             <Navbar />
             {/* <Subject /> */}
             {/* <Tutor /> */}
-            <div className="create-tutor">
+            {/* <div className="create-tutor">
                 <CreateTutor />
-            </div>
+            </div> */}
+            <LocalizationProvider dateAdapter={AdapterDayjs}>
+                <BookingForm />
+            </LocalizationProvider>
         </>
     );
 };

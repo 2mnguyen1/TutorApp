@@ -1,0 +1,22 @@
+.date-time-components {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .date-time-picker {
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .time-picker {
+            width: 20%;
+        }
+    }
+    .book-tutor-form-btn {
+        border: none;
+        width: 101px;
+        height: 35px;
+        color: white;
+        background: var(--color-primary-1, #4c40f7);
+    }
+}
